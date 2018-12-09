@@ -22,18 +22,20 @@
 
   <h3>The deets:</h3>
 
-  <form>
+  <form name="responses" netlify>
     <p>
       <strong>
         Please RSVP so we know how many wings we need and we don't make way too many. Again.
       </strong>
     </p>
-    <input type="radio" name="rsvp" id="coming" /><label for="coming">I'll be here</label>
-    <input type="radio" name="rsvp" id="not-coming"><label for="not-coming">Sorry, I can't make it</label>
+    <input type="radio" name="rsvp" id="coming" value="coming" /><label for="coming">I'll be here</label>
+    <input type="radio" name="rsvp" id="not-coming" value="not-coming" /><label for="not-coming">Sorry, I can't make it</label>
 
     <p>
       This time, we're doing a <strong>Bring Your Own Sauce </strong> challenge.
     </p>
+
+    <input type="submit" role="button" value="RSVP" />
   </form>
 </body>
 </html>
